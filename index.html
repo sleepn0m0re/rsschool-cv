@@ -1,18 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 id="ani-ni">Ani Ni</h1>
-    <p>sleepn0m0re@outlook.com</p>
-    <h3 id="occupation">Occupation</h3>
-    <p>Currently studing in RS school and working on my <a href="https://github.com/sleepn0m0re">github account</a></p>
-    <h3 id="interests">Interests</h3>
-    <p>Code, sleep, eat. Repeat.</p>
-    <h4 id="education">Education</h4>
-    <p><code class="language-plaintext highlighter-rouge">2006-2011</code>
-        <strong>Belarusian National Technical University.</strong>
-    </p>
+    <header>
+        <img src="assets/img/photo.jpeg" alt="my photo" class="myphoto">
+        <h1>Ani Ni</h1>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#occupation" class="nav-link">Occupation</a></li>
+                <li class="nav-item"><a href="#interests" class="nav-link">Interests</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code </a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h2 id="contacts">Contacts</h2>
+        <ul>
+            <li>Location:Germany</li>
+            <li>E-mail:<a href="sleepn0m0re@outlook.com">sleepn0m0re@outlook.com</a></li>
+            <li>GitHub:<a href="https://github.com/sleepn0m0re">sleepn0m0re</a></li>
+        </ul>
+
+        <h2 id="occupation">Occupation</h2>
+        <p>Currently studing in RS school and working on my <a href="https://github.com/sleepn0m0re">github account</a>
+        </p>
+        <h2 id="interests">Interests</h2>
+        <p>Code, sleep, eat. Repeat.</p>
+        <h2 id="education">Education</h2>
+        <p><code class="language-plaintext highlighter-rouge">2006-2011</code>
+            <strong>Belarusian National Technical University.</strong>
+        </p>
+        <h2 id="code">Code</h2>
+        <pre>
+            def fibonacci(n):
+                if n <= 1:
+                    return n
+                return fibonacci(n-1) + fibonacci(n-2)
+        </pre>
+    </main>
+    <footer class="footer">
+        <a href="https://rs.school/js-stage0/"><img src="assets/img/rs_school_logo.svg" alt="rs school logo"
+                class="myphoto"></a>
+        <a href="https://github.com/sleepn0m0re">sleepn0m0re</a>
+        <a>December 2022</a>
+    </footer>
 </body>
+
 </html>
